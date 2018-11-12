@@ -446,3 +446,19 @@ Stack trace:
 #11 D:\school3pws\workerman\chatroom\server.php(76): Workerman\Worker::runAll()
 #12 {main}
 2018-11-12 09:59:37 pid:1 Worker process terminated
+2018-11-12 10:31:05 pid:1 Error: Call to undefined function sendToAll() in D:\school3pws\workerman\chatroom\server.php:45
+Stack trace:
+#0 [internal function]: close(Object(Workerman\Connection\TcpConnection))
+#1 D:\school3pws\workerman\chatroom\Workerman-master\Connection\TcpConnection.php(932): call_user_func('close', Object(Workerman\Connection\TcpConnection))
+#2 D:\school3pws\workerman\chatroom\Workerman-master\Connection\TcpConnection.php(837): Workerman\Connection\TcpConnection->destroy()
+#3 D:\school3pws\workerman\chatroom\Workerman-master\Protocols\Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02'\x10', true)
+#4 D:\school3pws\workerman\chatroom\Workerman-master\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('\x88\x82\xB0&\x7F\x8A\xB3\xCF', Object(Workerman\Connection\TcpConnection))
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #17)
+#6 D:\school3pws\workerman\chatroom\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#7 D:\school3pws\workerman\chatroom\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#8 D:\school3pws\workerman\chatroom\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#9 D:\school3pws\workerman\chatroom\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 D:\school3pws\workerman\chatroom\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 D:\school3pws\workerman\chatroom\server.php(76): Workerman\Worker::runAll()
+#12 {main}
+2018-11-12 10:31:05 pid:1 Worker process terminated
