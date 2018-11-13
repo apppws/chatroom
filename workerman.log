@@ -765,3 +765,51 @@ Stack trace:
 #11 D:\school3pws\workerman\chatroom\server.php(117): Workerman\Worker::runAll()
 #12 {main}
 2018-11-13 12:12:48 pid:1 Worker process terminated
+2018-11-13 12:32:48 pid:1 ArgumentCountError: Too few arguments to function close(), 1 passed and exactly 2 expected in D:\school3pws\workerman\chatroom\server.php:88
+Stack trace:
+#0 [internal function]: close(Object(Workerman\Connection\TcpConnection))
+#1 D:\school3pws\workerman\chatroom\Workerman-master\Connection\TcpConnection.php(932): call_user_func('close', Object(Workerman\Connection\TcpConnection))
+#2 D:\school3pws\workerman\chatroom\Workerman-master\Connection\TcpConnection.php(837): Workerman\Connection\TcpConnection->destroy()
+#3 D:\school3pws\workerman\chatroom\Workerman-master\Protocols\Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02'\x10', true)
+#4 D:\school3pws\workerman\chatroom\Workerman-master\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('\x88\x82\x8Eb\x08o\x8D\x8B', Object(Workerman\Connection\TcpConnection))
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 D:\school3pws\workerman\chatroom\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#7 D:\school3pws\workerman\chatroom\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#8 D:\school3pws\workerman\chatroom\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#9 D:\school3pws\workerman\chatroom\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 D:\school3pws\workerman\chatroom\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 D:\school3pws\workerman\chatroom\server.php(117): Workerman\Worker::runAll()
+#12 {main}
+2018-11-13 12:32:48 pid:1 Worker process terminated
+2018-11-13 12:34:49 pid:1 ArgumentCountError: Too few arguments to function close(), 1 passed and exactly 2 expected in D:\school3pws\workerman\chatroom\server.php:88
+Stack trace:
+#0 [internal function]: close(Object(Workerman\Connection\TcpConnection))
+#1 D:\school3pws\workerman\chatroom\Workerman-master\Connection\TcpConnection.php(932): call_user_func('close', Object(Workerman\Connection\TcpConnection))
+#2 D:\school3pws\workerman\chatroom\Workerman-master\Connection\TcpConnection.php(837): Workerman\Connection\TcpConnection->destroy()
+#3 D:\school3pws\workerman\chatroom\Workerman-master\Protocols\Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02'\x10', true)
+#4 D:\school3pws\workerman\chatroom\Workerman-master\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('\x88\x82\xF0;k"\xF3\xD2', Object(Workerman\Connection\TcpConnection))
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #21)
+#6 D:\school3pws\workerman\chatroom\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#7 D:\school3pws\workerman\chatroom\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#8 D:\school3pws\workerman\chatroom\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#9 D:\school3pws\workerman\chatroom\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 D:\school3pws\workerman\chatroom\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 D:\school3pws\workerman\chatroom\server.php(117): Workerman\Worker::runAll()
+#12 {main}
+2018-11-13 12:34:49 pid:1 Worker process terminated
+2018-11-13 12:41:34 pid:1 ArgumentCountError: Too few arguments to function close(), 1 passed and exactly 2 expected in D:\school3pws\workerman\chatroom\server.php:88
+Stack trace:
+#0 [internal function]: close(Object(Workerman\Connection\TcpConnection))
+#1 D:\school3pws\workerman\chatroom\Workerman-master\Connection\TcpConnection.php(932): call_user_func('close', Object(Workerman\Connection\TcpConnection))
+#2 D:\school3pws\workerman\chatroom\Workerman-master\Connection\TcpConnection.php(837): Workerman\Connection\TcpConnection->destroy()
+#3 D:\school3pws\workerman\chatroom\Workerman-master\Protocols\Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02'\x10', true)
+#4 D:\school3pws\workerman\chatroom\Workerman-master\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('\x88\x82\xBA\xC6b\xFC\xB9/', Object(Workerman\Connection\TcpConnection))
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #25)
+#6 D:\school3pws\workerman\chatroom\Workerman-master\Events\Select.php(294): call_user_func_array(Array, Array)
+#7 D:\school3pws\workerman\chatroom\Workerman-master\Worker.php(2321): Workerman\Events\Select->loop()
+#8 D:\school3pws\workerman\chatroom\Workerman-master\Worker.php(1315): Workerman\Worker->run()
+#9 D:\school3pws\workerman\chatroom\Workerman-master\Worker.php(1258): Workerman\Worker::forkWorkersForWindows()
+#10 D:\school3pws\workerman\chatroom\Workerman-master\Worker.php(507): Workerman\Worker::forkWorkers()
+#11 D:\school3pws\workerman\chatroom\server.php(117): Workerman\Worker::runAll()
+#12 {main}
+2018-11-13 12:41:34 pid:1 Worker process terminated
